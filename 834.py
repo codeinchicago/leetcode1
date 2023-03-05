@@ -1,4 +1,7 @@
 '''
+Done at the ChiPy Algo Night meetup for March 2023.
+I originally put lines 37 and 38 together but that failed the edge case of # being the first character in the string. Separating them fixed the problem.
+
 Given two strings s and t, return true if they are equal when both are typed into empty text editors. '#' means a backspace character.
 
 Note that after backspacing an empty text, the text will continue empty.
